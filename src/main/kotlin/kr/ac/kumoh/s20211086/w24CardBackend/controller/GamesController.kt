@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/card/games")
-@CrossOrigin(origins = ["http://localhost:3000"])
+@CrossOrigin(origins = ["https://wsp2024cardfront.netlify.app"])
 class GamesController(private val service: GamesService)
 {
     @GetMapping
